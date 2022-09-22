@@ -1,0 +1,7 @@
+Flask
+Flask_Cors
+Flask_JWT_Extended
+pymongo[srv]
+gunicorn
+python-dotenv
+cryptography
