@@ -83,7 +83,7 @@ def protected():
 @role_required({Role.ADMIN})
 def admin():
   # current_user = get_jwt_identity()
-  return jsonify(msg='Hello Admin')
+  return jsonify(msg='Hello Admin', success=True)
 
 @app.route("/users", methods=["GET"])
 @role_required({Role.ADMIN})
