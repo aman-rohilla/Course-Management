@@ -1,4 +1,6 @@
-Course Management System API
+## Course Management API
+
+#### Python, Flask, MongoDB, pymongo, REST API, JWT, User Authentication
 
 Teachers can publish a course and students can enroll.
 Admin can see the courses and users.
@@ -17,7 +19,8 @@ User Roles :
     Anyone can register as student.
     Student has user role as 'student'.
     Student can enroll/unenroll a course.
-    Student can see courses enrolled by him/her or course available to him for enrollment.
+    Student can see courses available for enrollment.
+    Student can see courses enrolled by him/her.
 
   Admin :
 
