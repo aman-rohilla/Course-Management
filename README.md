@@ -32,15 +32,15 @@ User Roles :
 
 
 Register :
-
-  {<br/>
-    "name": "user",<br/>
-    "email": "user@rohilla.co.in",<br/>
-    "password": "passpass",<br/>
-    "role": "student"<br/>
-  }<br/>
-  "role": can be student/teacher.<br/>
-
+<pre>
+  {
+    "name": "user",
+    "email": "user@rohilla.co.in",
+    "password": "passpass",
+    "role": "student"
+  }
+  "role": can be student/teacher.
+<pre/>
 Login :
 
   {<br/>
