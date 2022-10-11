@@ -40,14 +40,14 @@ Register :
     "role": "student"
   }
   "role": can be student/teacher.
-<pre/>
+</pre>
 Login :
-
-  {<br/>
-    "email": "user@rohilla.co.in",<br/>
-    "password": "passpass"<br/>
-  }<br/>
-
+<pre>
+  {
+    "email": "user@rohilla.co.in",
+    "password": "passpass"
+  }
+</pre>
 The access tokens and refresh tokens must be provided in Authorization header for accessing authorized routes.<br/>
 The credentials and any data must be send as json in request body.<br/>
 Postman Collection, import "Course Management API.postman_collection.json"<br/>
