@@ -30,24 +30,22 @@ User Roles :
 
 Register :
 
-  {
-    "name": "user",
-    "email": "user@rohilla.co.in",
-    "password": "passpass",
-    "role": "student"
-  }
-  "role": can be student/teacher.
+  {<br/>
+    "name": "user",<br/>
+    "email": "user@rohilla.co.in",<br/>
+    "password": "passpass",<br/>
+    "role": "student"<br/>
+  }<br/>
+  "role": can be student/teacher.<br/>
 
 Login :
 
-  {
-    "email": "user@rohilla.co.in",
-    "password": "passpass"
-  }
+  {<br/>
+    "email": "user@rohilla.co.in",<br/>
+    "password": "passpass"<br/>
+  }<br/>
 
-The access tokens and refresh tokens must be provided in Authorization header for accessing authorized routes.
-The credentials and any data must be send as json in request body.
-
-Git Repo - https://github.com/aman-rohilla/Course-Management
-Postman Collection, import "Course Management API.postman_collection.json"
+The access tokens and refresh tokens must be provided in Authorization header for accessing authorized routes.<br/>
+The credentials and any data must be send as json in request body.<br/>
+Postman Collection, import "Course Management API.postman_collection.json"<br/>
 
