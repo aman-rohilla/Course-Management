@@ -199,6 +199,7 @@ def unenroll_in_course():
   return {'success': True, 'msg': 'Unenrollment Successful!'}
 
 
+
 from course import courses
 
 @app.route("/course", methods=['GET'])
@@ -232,6 +233,9 @@ def get_available_courses():
     course_list[i]['_id'] = str(course_list[i]['_id'])
 
   return {'success': True, 'msg': 'None', 'available_courses': course_list}
+
+
+
 
 
 import json

@@ -51,9 +51,9 @@ class User():
     self.name = user.get('name', self.name)
     # self.email = user.get('email', self.email)
     # self.password = user.get('password', self.password)
-    # self.role = user.get('role', self.role)
+    self.role = user.get('role', self.role)
 
-    users.update_one({'_id': ObjectId(self._id)}, {'name': self.name})
+    users.update_one({'_id': ObjectId(self._id)}, {'name': self.name, 'role': self.role})
 
   def delete(self):
     users.delete_one({'_id': ObjectId(self._id)})
